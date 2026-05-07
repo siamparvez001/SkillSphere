@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch with HTML, CSS, JavaScript, Node.js, and more.",
+    "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Python for Data Science & Machine Learning",
+    "instructor": "Jane Smith",
+    "duration": "35 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Master Python, Pandas, NumPy, Scikit-learn and build real-world ML models from scratch.",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=250&fit=crop",
+    "category": "Data Science"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Emily Chen",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Learn user interface and experience design using Figma, design principles, and real project workflows.",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "React & Next.js — The Complete Guide",
+    "instructor": "Alex Johnson",
+    "duration": "28 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build modern, fast web apps using React 18, hooks, context API, and Next.js 14 with SSR and SSG.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=250&fit=crop",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing & SEO Fundamentals",
+    "instructor": "Sara Williams",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn SEO, social media marketing, Google Ads, and analytics to grow any business online.",
+    "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=250&fit=crop",
+    "category": "Marketing"
+  },
+  {
+    "id": 6,
+    "title": "AWS Cloud Practitioner — Zero to Certified",
+    "instructor": "David Park",
+    "duration": "22 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Prepare for the AWS Cloud Practitioner exam with hands-on labs, architecture diagrams, and mock tests.",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop",
+    "category": "Cloud"
+  }
+]
