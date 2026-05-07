@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="border-b px-2 bg-gray-700">
+        <div className="border-b px-2 bg-zinc-800">
             <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
                 <div className="flex gap-2 items-center">
 

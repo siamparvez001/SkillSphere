@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { GrLocationPin } from "react-icons/gr";
 const Footer = () => {
     return (
-        <footer className="relative mt-24 bg-gray-700 text-white">
+        <footer className="relative mt-24 bg-zinc-800 text-white">
             <div className="mt-12 h-px w-full bg-linear-to-r from-transparent via-gray-300 to-transparent dark:via-white/10" />
 
 
@@ -20,7 +20,7 @@ const Footer = () => {
             {/* Content */}
             <div className="max-w-7xl mx-auto px-6 py-16">
                 {/* Top Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
                     {/* Brand */}
                     <div className="space-y-4">
                         <div className="flex items-center gap-2">
@@ -97,7 +97,15 @@ const Footer = () => {
                             
                         </ul>
                     </div>
-
+                    {/* Social Links */}
+                    <div>
+                        <p>Social Links</p>
+                        <div className="opacity-70 flex flex-col gap-1 mt-3">
+                            <Link href={'/facebook'}>Facebook</Link>
+                            <Link href={'/gitHub'}>GitHub</Link>
+                            <Link href={'/linkedin'}>Linkedin</Link>
+                        </div>
+                    </div>
                     
                 </div>
 
