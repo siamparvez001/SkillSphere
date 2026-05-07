@@ -61,7 +61,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/Courses"
+                                    href="/all-courses"
                                     className="text-white opacity-70 transition"
                                 >
                                     All Courses

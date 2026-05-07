@@ -1,5 +1,6 @@
 import { Button, Card, Chip } from "@heroui/react";
 import Image from "next/image";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 const CourseCard = ({ course }) => {
     return (
@@ -27,7 +28,9 @@ const CourseCard = ({ course }) => {
                     <h1 className="bg-sky-200 px-2 py-1 rounded-2xl text-black">{course.level}</h1>
                 </div>
                 <div className="mt-5">
-                    <Button variant="outline" className="w-full">View Details</Button>
+                    <Link href={`/all-courses/${course.id}`}>
+                        <Button variant="outline" className="w-full text-white">View Details</Button>
+                    </Link>
                 </div>
             </div>
         </Card>
