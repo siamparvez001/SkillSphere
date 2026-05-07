@@ -10,6 +10,7 @@ export const auth = betterAuth({
         // Optional: if you don't provide a client, database transactions won't be enabled.
         client
     }),
+    // trustedOrigins: ["http://localhost:3000", "https://skill-sphere-theta-henna.vercel.app"],
     emailAndPassword: {
         enabled: true
     },
