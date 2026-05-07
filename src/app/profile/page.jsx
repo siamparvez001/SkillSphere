@@ -4,11 +4,15 @@ import { UpdateUserModal } from "@/components/UpdateUserModal";
 import { authClient } from "@/lib/auth-client";
 import { Avatar, Card } from "@heroui/react";
 import { redirect } from "next/navigation";
+import Loading from "../all-courses/loading";
+
 
 const ProfilePage = () => {
     const userData = authClient.useSession();
     const user = userData.data?.user; 
+    const isPending = userData.isPending; 
 
+if (isPending) return <Loading></Loading>;
     return (
         <div>
             <Card className="max-w-96 mx-auto flex flex-col items-center border mt-5">

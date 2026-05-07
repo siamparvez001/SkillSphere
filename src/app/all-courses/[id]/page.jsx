@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { notFound } from "next/navigation";
 import { FaStar } from "react-icons/fa";
 import { BsPersonBadgeFill } from "react-icons/bs";
 import { IoTime } from "react-icons/io5";
@@ -7,6 +8,9 @@ const CourseDetails = async ({ params }) => {
     const res = await fetch("https://skill-sphere-theta-henna.vercel.app/data.json");
     const courses = await res.json();
     const course = courses.find(p => p.id == id)
+    if (!course) {
+        notFound();
+    }
     return (
         <div className="bg-[#EEEDFE]">
             <div className="max-w-7xl mx-auto flex py-15 flex-col md:flex-row gap-10 px-10">

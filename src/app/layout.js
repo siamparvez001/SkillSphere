@@ -2,11 +2,10 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
+import { Toaster } from "sonner";
 const OutfitFont = Outfit({
   subsets: ["latin"],
-});
-
+}); 
 
 export const metadata = {
   title: "SkillSphere",
@@ -21,9 +20,8 @@ export default function RootLayout({ children }) {
     >
       <body>
         <Navbar></Navbar>
-        <main>
-          {children}
-        </main>
+          <Toaster position="top-right" richColors></Toaster>
+          {children} 
         <Footer></Footer>
       </body>
     </html>

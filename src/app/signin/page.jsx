@@ -1,6 +1,7 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
+import { toast } from "sonner";
 import {
     Button,
     Card,
@@ -25,6 +26,11 @@ export default function SignInPage() {
             password,
             callbackURL: "/",
         });
+        if (error) {
+            toast.error("Login failed! Email or password incorrect.");  
+        } else {
+            toast.success("Successfully signed in!"); 
+        }
 
         console.log({ data, error });
     };

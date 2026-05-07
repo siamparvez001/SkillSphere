@@ -1,6 +1,7 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
+import { toast } from "sonner";
 import {
     Button,
     Card,
@@ -36,9 +37,12 @@ export default function SignUpPage() {
 
         console.log({ data, error })
 
-        if (!error) {
-            router.push('/')
-        }
+        if (error) {
+        toast.error("Sign up failed! Please try again.");  
+    } else {
+        toast.success("Account created successfully!");  
+        router.push('/');
+    }
 
     };
     const handlGoogleSignIn = async () => {
