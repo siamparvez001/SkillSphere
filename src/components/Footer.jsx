@@ -4,8 +4,8 @@ import { MdEmail } from "react-icons/md";
 import { GrLocationPin } from "react-icons/gr";
 const Footer = () => {
     return (
-        <footer className="relative mt-24 bg-zinc-800 text-white">
-            <div className="mt-12 h-px w-full bg-linear-to-r from-transparent via-gray-300 to-transparent dark:via-white/10" />
+        <footer className="relative  bg-zinc-800 text-white">
+            <div className=" h-px w-full bg-linear-to-r from-transparent via-gray-300 to-transparent dark:via-white/10" />
 
 
             <div className="absolute inset-0 -z-10 bg-white dark:bg-[#0a0a0b]" />
