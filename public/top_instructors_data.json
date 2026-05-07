@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "role": "Full Stack Developer",
+    "totalCourses": 12,
+    "totalStudents": 15400,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Khan",
+    "role": "UX Designer",
+    "totalCourses": 8,
+    "totalStudents": 9800,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": 3,
+    "name": "Mike Smith",
+    "role": "Digital Marketer",
+    "totalCourses": 6,
+    "totalStudents": 7200,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+  }
+]
