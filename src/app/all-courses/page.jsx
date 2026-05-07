@@ -1,4 +1,6 @@
+import Category from '@/components/Category';
 import CourseCard from '@/components/CourseCard';
+
 
 
 const AllCoursesPage = async () => {
@@ -10,12 +12,10 @@ const AllCoursesPage = async () => {
             <div className='max-w-7xl mx-auto'>
                 <h1 className='text-white font-bold text-2xl'>All Courses</h1>
                 {/* search bar */}
-                <div>
-
-                </div>
+                <Category></Category>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-5 text-white'>
                     {
-                        courses.map(course=> 
+                        courses.map(course =>
                             <CourseCard key={course.id} course={course}></CourseCard>
                         )
                     }
