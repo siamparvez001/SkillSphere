@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 const CourseCard = ({ course }) => {
     return (
-        <Card className="border bg-zinc-700 space-y-2">
+        <Card className="border  bg-zinc-700 space-y-2">
             <div>
                 <div className="relative w-full aspect-square">
                     <Image
