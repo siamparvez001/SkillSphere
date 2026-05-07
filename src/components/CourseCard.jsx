@@ -6,13 +6,13 @@ const CourseCard = ({ course }) => {
     return (
         <Card className="border  bg-zinc-700 space-y-2">
             <div>
-                <div className="relative w-full aspect-square">
+                <div className="relative w-full h-[200px]">
                     <Image
                         src={course.image}
                         fill
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         alt={course.title}
-                        className="object-cover rounded-xl"
+                        className="object-cover h-full rounded-xl"
                     />
                     <Chip size="sm" className="absolute right-2 top-2">{course.category}</Chip>
                 </div>

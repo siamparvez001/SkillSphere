@@ -10,7 +10,7 @@ const TopCourses = async () => {
 
         <div className=" py-10 bg-zinc-800">
             <div className="max-w-7xl mx-auto text-white">
-                <h1 className="text-2xl font-bold">Popular Courses</h1>
+                <h1 className="text-2xl font-bold my-5">Popular Courses</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {
                         topCourses.map(course =>
